@@ -1,0 +1,17 @@
+<div class="home-container">
+  <section class="welcome">
+    <h1>Welcome to the Community Help Desk Portal</h1>
+    <p>Stay updated with the latest service announcements and posts.</p>
+  </section>
+
+  <section class="latest-posts">
+    <h2>Latest Updates</h2>
+    <ul>
+      <li *ngFor="let post of latestPosts$ | async" class="post-card">
+        <h3>{{ post.title | uppercase }}</h3>
+        <p>{{ post.body | truncate:80 }}</p>
+        <span class="post-id">Post ID: {{ post.id }}</span>
+      </li>
+    </ul>
+  </section>
+</div>

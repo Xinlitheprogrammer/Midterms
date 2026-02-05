@@ -1,0 +1,53 @@
+.services-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.search-box input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.post-card {
+  background: #f7f7f7;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #007BFF;
+}
+
+.post-card p {
+  margin: 0;
+  color: #555;
+}
+
+.loading, .no-results {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
